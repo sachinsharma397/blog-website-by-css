@@ -1,0 +1,268 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and font styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0780a8;
+  color: #c81a9d;
+  line-height: 1.6;
+  box-sizing: border-box;
+}
+
+/* Header styles */
+header {
+  background-color: #9fa097;
+  color: #c81032;
+  padding: 20px 0;
+  
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: palevioletred;
+  font-size: 30px;
+  transition: color 0.3s ease;
+  display: block;
+}
+
+nav ul li a:hover {
+  color: #4769ff; /* Tomato color on hover */
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+/* Featured Cards */
+.featured-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.card {
+  background-color: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 1rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.card h3 {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.card a.reading {
+  color: #ff6347;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.card a.reading:hover {
+  color: #e53e36; /* Darker shade of tomato */
+}
+
+/* Hover Effect for Cards */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 2rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.contact-section h1 {
+  font-size: 2rem;
+  color: #d81ac2;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  font-size: 1.2rem;
+  color: #0db180;
+  margin-bottom: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+form label {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+form input[type="email"] {
+  padding: 0.8rem;
+  font-size: 1rem;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  outline: none;
+}
+
+form input[type="email"]:focus {
+  border-color: #ff6347;
+}
+
+form .submit-btn {
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form .submit-btn:hover {
+  background-color: #e53e36; /* Darker tomato color */
+}
+
+/* Services Section */
+.services {
+  padding: 2rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.services h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.services p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.services img {
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+/* About Section */
+.about-services {
+  padding: 2rem;
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.about-services h1, .about-services h2 {
+  font-size: 2.5rem;
+  color: #4b80ab;
+  margin-bottom: 1rem;
+}
+
+.about-services p {
+  font-size: 1.2rem;
+  color: #9c8c9b;
+  margin-bottom: 1.5rem;
+}
+
+.service-img {
+  margin-top: 2rem;
+}
+
+.service-img img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.service-img img:hover {
+  transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 1rem;
+}
